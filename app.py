@@ -156,7 +156,7 @@ if __name__ == '__main__':
 	df_raw_data = df_raw_data.iloc[:, 1:]
 
 	#apply_linear_feature_extraction(four_dim,"testing_purposes")
-	#apply_non_lin_feature_extraction(four_dim,"testing_purposes", n_components=3,verbose=1,perplexity=40,n_iter=300)
+	apply_non_lin_feature_extraction(four_dim,"testing_purposes", n_components=3,verbose=1,perplexity=40,n_iter=300)
 	#apply_kMeans_clustering_2D(two_dim,"testing_purposes")
 	#find_patterns_in_outlier(df_raw_data, "_outliers_")
 	plot_in_3D(three_dim)

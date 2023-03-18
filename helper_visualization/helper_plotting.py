@@ -19,7 +19,7 @@ def plot_in_3D(df_rawData: pd.DataFrame):
 	fig = go.Figure(data=[trace], layout=layout)
 
 	# Set plot size
-	fig.update_layout(width=800, height=650)
+	fig.update_layout(width=600, height=450)
 
 	# Set title
 	fig.update_layout(title={

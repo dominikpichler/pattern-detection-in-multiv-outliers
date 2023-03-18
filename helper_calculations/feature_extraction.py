@@ -43,7 +43,7 @@ def apply_linear_feature_extraction(df_raw_data_FE: pd.DataFrame, label: str) ->
 	fig.update_yaxes(title_text="\u03DB\u2082")
 
 	# Set plot size
-	fig.update_layout(width=600, height=450)
+	fig.update_layout(width=600, height=800)
 
 	# Add explanation
 	fig.update_layout(annotations=[
@@ -104,7 +104,7 @@ def apply_non_lin_feature_extraction(raw_data: pd.DataFrame, label: str,
 		)
 	)])
 	# Set plot size
-	fig.update_layout(width=800, height=650)
+	fig.update_layout(width=700, height=600)
 
 	# Set title
 	fig.update_layout(title={
