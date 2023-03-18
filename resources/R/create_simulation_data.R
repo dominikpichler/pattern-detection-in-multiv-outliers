@@ -99,3 +99,5 @@ data2$p2 <- pchisq(data2$mahal2, df=2, lower.tail=FALSE)
 
 # Typically a p-value that is less than .001 is considered to be an outlier.
 dataOut <- data2[data2$p1 < 0.001,]
+
+
